@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#">ARCHIVE <span>/ 2026</span></a>
+    <div class="counter"><span id="current">01</span> / <span id="total">13</span></div>
+    <button class="menu" id="menuBtn" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <main class="stage" id="stage">
+    <div class="intro">
+      <p>VISUAL ARCHIVE</p>
+      <h1>Selected<br><em>Works</em></h1>
+      <p class="hint">DRAG / WHEEL / CLICK</p>
+    </div>
+
+    <div class="gallery" id="gallery" aria-label="Works gallery"></div>
+
+    <div class="meta">
+      <div class="meta-index" id="metaIndex">01</div>
+      <div>
+        <h2 id="title">Zara Larsson</h2>
+        <p id="metaText">Selected work · 2026</p>
+      </div>
+      <button class="next" id="nextBtn">NEXT <span>↗</span></button>
+    </div>
+
+    <div class="progress"><span id="progress"></span></div>
+  </main>
+
+  <aside class="menu-panel" id="menuPanel">
+    <button class="close" id="closeBtn">CLOSE</button>
+    <nav>
+      <a href="#">WORKS</a>
+      <a href="#">ABOUT</a>
+      <a href="#">CONTACT</a>
+    </nav>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
